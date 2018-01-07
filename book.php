@@ -25,6 +25,8 @@ $books->q = $search_query;
 }
 $books->book= $book;
 
+
+
 header('Content-Type: application/json');
 print json_encode($books);
 	?>
